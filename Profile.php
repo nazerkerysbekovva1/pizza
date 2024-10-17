@@ -26,7 +26,7 @@
         </div>
     </header>
     <section class="section1">
-        <div class="tagamdar">
+        <!-- <div class="tagamdar">
             <ul>
                 <li>Pizza</li>
                 <li>Sushi</li>
@@ -45,50 +45,10 @@
                 <p>Тапсырыс беріңіз және біздің аспаздардан үлкен рахат алыңыз</p>
                 <a class="btn" onclick="modalOpen()">Толығырақ   >>></a>
             </div>
-        </div>
+        </div> -->
     </section>
 
-
-
-
-
-
-
-
-
-
-    <div class="modal">
-       <div class="modal-main">
-            <h1>Sign In</h1>
-            <form action="api/register.php" method="POST">
-                <input type="text" name="email" placeholder="Почта или телефон">
-                <input type="text" name="full_name" placeholder="Полное имя">
-                <input type="text" name="nickname" placeholder="Nickname">
-                <input type="password" name="password" placeholder="Введите пароль">
-                <input type="password" name="password2" placeholder="Подтвердить пароль">
-                <button type="submit">Sign In</button>
-                <p>Dont have an account?</p>
-                <a href="">Sign Up</a>
-            </form>
-       </div>
-       <a class="x" href="" onclick="modalClose()">X</a>
-    </div>
-
-    <div class="modal login">
-       <div class="modal-main login">
-            <h1>Sign In</h1>
-            <form action="api/login.php" method="POST">
-                <input type="text" name="email" placeholder="Почта или телефон">
-                <input type="password" name="password" placeholder="Введите пароль">
-                <button type="submit">Login</button>
-                <p>Dont have an account?</p>
-                <a href="">Sign Up</a>
-            </form>
-       </div>
-       <a class="x" href="" onclick="modalClose()">X</a>
-    </div>
-
-    <script src="index.js"></script>
+   
 
 </body>
 </html>

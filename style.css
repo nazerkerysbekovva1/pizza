@@ -129,6 +129,20 @@
        bottom: 0;
        position: fixed;
    }
+
+   .login{
+    width: 100%;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       background-color: rgba(0, 0, 0, 0.4);
+       padding: 30px 0;
+       top: 0;
+       right: 0;
+       left: 0;
+       bottom: 0;
+       position: fixed;
+   }
    
    .modal-main{
        background-color: #fff;
